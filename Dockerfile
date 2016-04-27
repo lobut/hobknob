@@ -10,3 +10,4 @@ WORKDIR /var/www/hobknob
 RUN bower install --allow-root
 EXPOSE 3006
 CMD ["node", "server/app.js"]
+
